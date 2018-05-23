@@ -1,0 +1,17 @@
+{
+    "extends": "airbnb-base",
+		"env": {
+    	"browser": true,
+    	"node": true
+  	},
+		"globals": {
+			"document": false		  
+		},
+		"rules": {
+        "indent": [2, "tab"],
+        "no-tabs": 0,
+		"no-unused-vars": ["error", { "vars": "all", "args": "after-used" }],
+		"linebreak-style": 0,
+		"no-underscore-dangle": 0
+		}
+}
