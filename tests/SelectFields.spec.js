@@ -47,6 +47,7 @@ describe('FieldSelect', () => {
 	const markup = `<div class="form__field">
 		<label for="Qual será o serviço?" class="form__label">Qual será o serviço?</label>
 		<select id="Qual será o serviço?" name="Qual será o serviço?" class="form__input" required="required">
+			<option value="" hidden="">tipo de serviço</option>
 			<option value="Coloração">Coloração</option>
 <option value="Corte">Corte</option>
 <option value="Escova ">Escova </option>
@@ -62,6 +63,7 @@ describe('FieldSelect', () => {
 	const markup2 = `<div class="form__field">
 		<label for="O serviço será para quantas pessoas?" class="form__label">O serviço será para quantas pessoas?</label>
 		<select id="O serviço será para quantas pessoas?" name="O serviço será para quantas pessoas?" class="form__input">
+			<option value="" hidden="">indique o número de pessoas</option>
 			<option value="1">1</option>
 <option value="2">2</option>
 <option value="Mais de 3">Mais de 3</option>
