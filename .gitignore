@@ -3,3 +3,6 @@ node_modules
 npm-debug.log
 coverage
 storybook-static
+./src/view/js/
+/src/view/js/
+src/view/js/
