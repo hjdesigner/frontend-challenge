@@ -19,6 +19,7 @@ Screenshot
 ## Dependencies:
 
 * Node.js >= v9
+* [Nodemon](https://nodemon.io/)
 
 ## Up and running
 
