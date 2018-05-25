@@ -50,27 +50,27 @@ describe('InputFields', () => {
 
   const markup = `<div class="form__field">
     <label for="cep" class="form__label">CEP</label>
-    <input type="tel" name="cep" id="cep" class="form__input form__input--cep" data-mask="cep" placeholder="" required="required">
+    <input type="tel" name="cep" id="cep" class="form__input form__input--cep" data-mask="cep" placeholder="" data-required="true">
   </div>`;
 
   const markup2 = `<div class="form__field">
     <label for="name" class="form__label">Nome</label>
-    <input type="text" name="name" id="name" class="form__input form__input--small_text" data-mask="small_text" placeholder="" required="required">
+    <input type="text" name="name" id="name" class="form__input form__input--small_text" data-mask="small_text" placeholder="" data-required="true">
   </div>`;
 
   const markup3 = `<div class="form__field">
     <label for="email" class="form__label">Email</label>
-    <input type="email" name="email" id="email" class="form__input form__input--email" data-mask="email" placeholder="Ex: nome@email.com" required="required">
+    <input type="email" name="email" id="email" class="form__input form__input--email" data-mask="email" placeholder="Ex: nome@email.com" data-required="true">
   </div>`;
 
   const markup4 = `<div class="form__field">
     <label for="phone" class="form__label">Celular</label>
-    <input type="tel" name="phone" id="phone" class="form__input form__input--phone" data-mask="phone" placeholder="">
+    <input type="tel" name="phone" id="phone" class="form__input form__input--phone" data-mask="phone" placeholder="" data-required="false">
   </div>`;
 
   const markup5 = `<div class="form__field">
     <label for="name" class="form__label">Nome</label>
-    <input type="text" name="name" id="name" class="form__input form__input--small_text" data-mask="small_text" placeholder="" required="required">
+    <input type="text" name="name" id="name" class="form__input form__input--small_text" data-mask="small_text" placeholder="" data-required="true">
   </div>`;
 
   it('Should return an input of type cep since past date is type cep', () => {

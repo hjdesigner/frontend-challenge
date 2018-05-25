@@ -36,17 +36,17 @@ describe('TextareaFields', () => {
   }
   const markup = `<div class="form__field">
     <label for="Informações Adicionais" class="form__label">Informações Adicionais</label>
-    <textarea class="form__field" id="Informações Adicionais" name="Informações Adicionais" placeholder="Descreva o que você precisa"></textarea>
+    <textarea class="form__input" id="Informações Adicionais" name="Informações Adicionais" placeholder="Descreva o que você precisa"></textarea>
   </div>`;
 
   const markup2 = `<div class="form__field">
     <label for="Informações Adicionais" class="form__label">Informações Adicionais</label>
-    <textarea class="form__field" id="Informações Adicionais" name="Informações Adicionais" placeholder=""></textarea>
+    <textarea class="form__input" id="Informações Adicionais" name="Informações Adicionais" placeholder=""></textarea>
   </div>`;
 
   const markup3 = `<div class="form__field">
     <label for="Informações Adicionais" class="form__label">Informações Adicionais</label>
-    <textarea class="form__field" id="Informações Adicionais" name="Informações Adicionais" placeholder="" required="required"></textarea>
+    <textarea class="form__input" id="Informações Adicionais" name="Informações Adicionais" placeholder="" required="required"></textarea>
   </div>`;
   
   it('Should create and append the markup give a correct data and markup', () => {
