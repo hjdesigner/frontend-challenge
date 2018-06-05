@@ -36,13 +36,6 @@ function fieldType(data) {
   });
 }
 
-fields.then((data) => {
-  data.forEach((item) => {
-    fieldType(item._embedded.request_fields);
-    fieldType(item._embedded.user_fields);
-  });
-});
-
 function MasksFilds() {
   const elementCep = document.querySelector('[data-mask="cep"]');
   const elementPhone = document.querySelector('[data-mask="phone"]');
@@ -73,7 +66,14 @@ function sendForm() {
   });
 }
 
-window.addEventListener('load', () => {
+fields.then((data) => {
+  data.forEach((item) => {
+    fieldType(item._embedded.request_fields);
+    fieldType(item._embedded.user_fields);
+  });
   MasksFilds();
   sendForm();
+}).catch(() => {
+  const form = document.querySelector('[data-js="form"]');
+  form.innerHTML = '<p style="text-align:center">Não foi encontrado nenhum formulario, verifiquei se esta rodando o servidor.</p>';
 });
