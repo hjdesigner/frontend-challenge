@@ -16,6 +16,13 @@ Screenshot
 * Webpack 4 + Babel to compile ES6
 * Express to upload the server into nodejs
 
+## Work Directories
+
+* HTML - build/views
+* CSS - build/css
+* JS Build - build/js
+* JS - src/scripts
+
 ## Dependencies:
 
 * Node.js >= v9
@@ -25,6 +32,7 @@ Screenshot
 
 * Clone this repository https://github.com/hjdesigner/frontend-challenge
 * Install dependencies: yarn install
-* Run `yarn server` to upload the server to nodejs http://localhost:3000
+* Run `yarn server` to upload the server API to nodejs http://localhost:3000
 * Run `yarn dev` to develop ES6
 * Run `yarn test` unit testing
+* Run `yarn build` to build ES6
