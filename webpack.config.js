@@ -1,9 +1,9 @@
 // webpack v4
 const path = require('path');
 module.exports = {
-  entry: { main: './src/view/scripts/app.js' },
+  entry: { main: './src/scripts/app.js' },
   output: {
-    path: path.resolve(__dirname, './src/view/js'),
+    path: path.resolve(__dirname, './build/js'),
     filename: 'app.js'
   },
   module: {

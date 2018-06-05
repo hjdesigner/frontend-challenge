@@ -1,6 +1,6 @@
 import 'jsdom-global/register';
 import chai, { expect } from 'chai';
-import InputFields from '../src/view/scripts/components/InputFields.js';
+import InputFields from '../src/scripts/components/InputFields.js';
 
 describe('InputFields', () => {
 	describe('Some tests', () => {

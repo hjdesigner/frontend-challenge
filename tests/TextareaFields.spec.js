@@ -1,6 +1,6 @@
 import 'jsdom-global/register';
 import chai, { expect } from 'chai';
-import TextareaFields from '../src/view/scripts/components/TextareaFields.js';
+import TextareaFields from '../src/scripts/components/TextareaFields.js';
 
 describe('TextareaFields', () => {
   describe('Some tests', () => {

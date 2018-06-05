@@ -2,7 +2,7 @@ import chai, { expect } from 'chai';
 import sinon from 'sinon';
 import sinonChai from 'sinon-chai';
 import sinonStubPromise from 'sinon-stub-promise';
-import GetFields from '../src/view/scripts/GetAPI/fields';
+import GetFields from '../src/scripts/GetAPI/fields';
 chai.use(sinonChai);
 sinonStubPromise(sinon);
 

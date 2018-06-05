@@ -1,6 +1,6 @@
 import 'jsdom-global/register';
 import chai, { expect } from 'chai';
-import FieldsSelect from '../src/view/scripts/components/FieldsSelect.js';
+import FieldsSelect from '../src/scripts/components/FieldsSelect.js';
 
 describe('FieldSelect', () => {
 	describe('Some tests', () => {
