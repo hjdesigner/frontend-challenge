@@ -3,7 +3,7 @@ const path = require('path');
 module.exports = {
   entry: { main: './src/scripts/app.js' },
   output: {
-    path: path.resolve(__dirname, './build/js'),
+    path: path.resolve(__dirname, './build/view/js'),
     filename: 'app.js'
   },
   module: {

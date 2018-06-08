@@ -32,7 +32,8 @@ Screenshot
 
 * Clone this repository https://github.com/hjdesigner/frontend-challenge
 * Install dependencies: yarn install
-* Run `yarn server` to upload the server API to nodejs http://localhost:3000
+* Run `yarn server` --mode production to upload the server API to nodejs http://localhost:8080
+* Run `yarn server:watch` --mode develop to upload the server API to nodejs http://localhost:8080
 * Run `yarn dev` to develop ES6
 * Run `yarn test` unit testing
 * Run `yarn build` to build ES6
